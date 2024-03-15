@@ -27,7 +27,7 @@ function determinarNivel(xp) {
 }
 
 // Loop para cada Herói
-for (let i = 0; i < herois.length; i++) { // length retorna o número de elementos de um array ou o número de caracteres de uma string
+for (let i = 0; i < herois.length; i++) { // length retorna o número de elementos do um array
     // Obtém o Herói atual
     let heroi = herois[i];
     // Determina o nível do Herói atual utilizando a função determinarNivel()
