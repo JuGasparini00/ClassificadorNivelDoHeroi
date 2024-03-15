@@ -30,4 +30,6 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
-Nota: Por já ter um pouco de experiência na área de programação, utilizei alguns métodos mais complexos do que o estipulado pelo desafio, como o uso de um array (conjunto ordenado de valores) e uma função.
+## Nota: 
+
+Por já ter um pouco de experiência na área de programação, utilizei alguns métodos mais complexos do que o estipulado pelo desafio, como o uso de um array (conjunto ordenado de valores) e uma função.
