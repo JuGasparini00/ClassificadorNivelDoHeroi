@@ -1,4 +1,4 @@
-// Variáveis para armazenar os nomes e XP dos Heróis
+// Array que armazena os nomes e XP dos Heróis
 let herois = [
     { nome: "Henry", xp: 3500 },
     { nome: "Alana", xp: 9800 },
@@ -27,8 +27,10 @@ function determinarNivel(xp) {
 }
 
 // Loop para cada Herói
-for (let i = 0; i < herois.length; i++) {
+for (let i = 0; i < herois.length; i++) { // length retorna o número de elementos de um array ou o número de caracteres de uma string
+    // Obtém o Herói atual
     let heroi = herois[i];
+    // Determina o nível do Herói atual utilizando a função determinarNivel()
     let nivel = determinarNivel(heroi.xp);
     console.log(`O Herói de nome ${heroi.nome} está no nível de ${nivel}`);
 }
